@@ -1,0 +1,32 @@
+{
+    "name": "norman-huth/helpers-collection-pimcore",
+    "support": {
+        "source": "https://github.com/Muetze42/helpers-collection-pimcore",
+        "docs": "https://docs.huth.it/helpers-collection"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "NormanHuth\\HelpersPimcore\\": "src/"
+        },
+        "files": [
+            "functions/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Norman Huth",
+            "homepage": "https://huth.it"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "league/flysystem": "^2.1|^3.0",
+        "league/mime-type-detection": "^1.0.0",
+        "norman-huth/helpers-collection-php": "^1.2.3",
+        "pimcore/pimcore": "^10.0",
+        "symfony/intl": "^4.4|^5.0|^6.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
